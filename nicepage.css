@@ -40465,37 +40465,168 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 79px;
+  min-height: 80px;
 }
 
 .u-header .u-icon-1 {
   width: 64px;
   height: 64px;
-  margin: 8px auto;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: 8px auto 0 459px;
+}
+
+.u-header .u-icon-2 {
+  width: 64px;
+  height: 64px;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: -64px 459px 0 auto;
+}
+
+.u-header .u-image-1 {
+  width: 64px;
+  height: 64px;
+  transition-duration: 0.5s;
+  transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
+  margin: -64px auto 8px;
 }
 @media (max-width: 1199px) {
+  .u-header .u-sheet-1 {
+    min-height: 66px;
+  }
+
   .u-header .u-icon-1 {
     width: 50px;
     height: 50px;
-    margin-top: 14px;
-    margin-bottom: 13px;
+    margin-left: 386px;
     padding: 0;
   }
+
+  .u-header .u-icon-2 {
+    width: 50px;
+    height: 49px;
+    margin-top: -50px;
+    margin-right: 387px;
+    padding: 0;
+  }
+
+  .u-header .u-image-1 {
+    width: 50px;
+    height: 49px;
+    margin-top: -49px;
+  }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 65px;
+  }
 
+  .u-header .u-icon-1 {
+    margin-left: 277px;
+  }
 
+  .u-header .u-icon-2 {
+    height: 49px;
+    margin-right: 277px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -49px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-sheet-1 {
+    min-height: 63px;
+  }
+
+  .u-header .u-icon-1 {
+    margin-top: 6px;
+    margin-left: 188px;
+  }
+
+  .u-header .u-icon-2 {
+    margin-top: -49px;
+    margin-right: 188px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -48px;
+    margin-bottom: 7px;
+  }
+}
 @media (max-width: 575px) {
   .u-header .u-sheet-1 {
-    min-height: 55px;
+    min-height: 51px;
   }
 
   .u-header .u-icon-1 {
     width: 40px;
     height: 40px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 6px;
+    margin-left: 104px;
+  }
+
+  .u-header .u-icon-2 {
+    width: 40px;
+    height: 39px;
+    margin-top: -40px;
+    margin-right: 104px;
+  }
+
+  .u-header .u-image-1 {
+    width: 40px;
+    height: 39px;
+    margin-top: -39px;
+    margin-bottom: 6px;
   }
 }
+.u-header .u-icon-1, .u-header .u-icon-1:before, .u-header .u-icon-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-header .u-icon-1.u-icon-1.u-icon-1:hover {
+    transform: scale(1.2) !important
+}
+.u-header .u-icon-1.u-icon-1.u-icon-1.hover {
+    transform: scale(1.2) !important
+}
+.u-header .u-container-layout:hover .u-icon-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-icon-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} .u-header .u-image-1, .u-header .u-image-1:before, .u-header .u-image-1 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-header .u-image-1.u-image-1.u-image-1:hover {
+    transform: scale(1.2) !important
+}
+.u-header .u-image-1.u-image-1.u-image-1.hover {
+    transform: scale(1.2) !important
+}
+.u-header .u-container-layout:hover .u-image-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-image-1 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} .u-header .u-icon-2, .u-header .u-icon-2:before, .u-header .u-icon-2 > .u-container-layout:before {
+    transition-property: fill, color, background-color, stroke-width, border-style, border-width, border-top-width, border-left-width, border-right-width, border-bottom-width, custom-border, borders, box-shadow, text-shadow, opacity, border-radius, stroke, border-color, font-size, font-style, font-weight, text-decoration, letter-spacing, transform, background-image, image-zoom, background-size, background-position
+}
+.u-header .u-icon-2.u-icon-2.u-icon-2:hover {
+    transform: scale(1.2) !important;
+    opacity: 0.6 !important
+}
+.u-header .u-icon-2.u-icon-2.u-icon-2.hover {
+    transform: scale(1.2) !important;
+    opacity: 0.6 !important
+}
+.u-header .u-container-layout:hover .u-icon-2 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+}
+.u-container-layout.hover .u-header .u-icon-2 {
+    transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important
+} 
+
 .u-footer .u-sheet-1 {
   min-height: 120px;
 }
